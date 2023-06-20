@@ -527,21 +527,21 @@ const toolbarButtons = [
         //   ],
         //   'Cobb Angle'
         // ),
-        // _createToolButton(
-        //   'Planar Freehand ROI',
-        //   'tool-freehand',
-        //   'PlanarFreehandROI',
-        //   [
-        //     {
-        //       commandName: 'setToolActive',
-        //       commandOptions: {
-        //         toolName: 'PlanarFreehandROI',
-        //       },
-        //       context: 'CORNERSTONE',
-        //     },
-        //   ],
-        //   'Planar Freehand ROI'
-        // ),
+        _createToolButton(
+          'Planar Freehand ROI',
+          'tool-annotate',
+          'Freehand Pen',
+          [
+            {
+              commandName: 'setToolActive',
+              commandOptions: {
+                toolName: 'PlanarFreehandROI',
+              },
+              context: 'CORNERSTONE',
+            },
+          ],
+          'Planar Freehand ROI'
+        ),
         _createToolButton(
           'Magnify',
           'tool-magnify',
